@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LCTRL,               LT(SYMBOLS,KC_Z),       KC_X,                   KC_C,                   KC_V,                   KC_B,                   KC_TRANSPARENT,
     KC_MEDIA_PLAY_PAUSE,    KC_AUDIO_MUTE,          KC_LALT,                KC_LGUI,                MO(MAC_NAV),
 
-                            KC_INSERTc,             TG(WINDOWS),
+                            KC_INSERT,              TG(WINDOWS),
                                                     KC_TRANSPARENT,
     KC_ENTER,               KC_TAB,                 KC_TRANSPARENT,
 
