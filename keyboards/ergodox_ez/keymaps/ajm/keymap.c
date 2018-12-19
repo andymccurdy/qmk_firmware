@@ -36,17 +36,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                             KC_INSERT,              TG(WINDOWS),
                                                     KC_TRANSPARENT,
-    KC_SPACE,               KC_ENTER,               KC_TRANSPARENT,
+    KC_TAB,                 KC_ENTER,               KC_TRANSPARENT,
 
     KC_ESCAPE,              KC_6,                   KC_7,                   KC_8,                   KC_9,                   KC_0,                   KC_TRANSPARENT,
     KC_TRANSPARENT,         KC_Y,                   KC_U,                   KC_I,                   KC_O,                   KC_P,                   KC_BSLASH,
                             KC_H,                   KC_J,                   KC_K,                   KC_L,                   KC_SCOLON,              KC_RGUI,
     KC_TRANSPARENT,         KC_N,                   KC_M,                   KC_COMMA,               KC_DOT,                 KC_SLASH,               KC_RSHIFT,
-                                                    KC_RALT,                KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_RCTRL,
+                                                    MO(SYMBOLS),            KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_RCTRL,
 
     TG(GAMES),              KC_DELETE,
     KC_TRANSPARENT,
-    KC_TRANSPARENT,         KC_BSPACE,              KC_SPACE
+    KC_RALT,                KC_BSPACE,              KC_SPACE
 
     ),
 
@@ -148,10 +148,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [SYMBOLS] = LAYOUT_ergodox(
 
-    KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,
-    KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,
-    KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,
-    KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,
+    KC_TRANSPARENT,         KC_CIRC,                KC_AMPR,                KC_ASTR,                KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,
+    KC_PIPE,                KC_TRANSPARENT,         KC_LPRN,                KC_RPRN,                KC_LBRACKET,            KC_RBRACKET,            KC_TRANSPARENT,
+    KC_PLUS,                KC_QUOTE,               KC_DQUO,                KC_EQUAL,               KC_MINUS,               KC_UNDS,
+    KC_GRAVE,               KC_TILD,                KC_LT,                  KC_GT,                  KC_LCBR,                KC_RCBR,                KC_TRANSPARENT,
     KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,         KC_TRANSPARENT,
 
                             KC_TRANSPARENT,         KC_TRANSPARENT,
