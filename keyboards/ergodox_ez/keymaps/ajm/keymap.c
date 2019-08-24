@@ -36,7 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
                             KC_INSERT,              TG(WINDOWS),
                                                     KC_TRANSPARENT,
-    KC_TAB,                 KC_ENTER,               KC_TRANSPARENT,
+    MO(SYMBOLS),            KC_ENTER,               KC_TRANSPARENT,
 
     KC_ESCAPE,              KC_6,                   KC_7,                   KC_8,                   KC_9,                   KC_0,                   KC_TRANSPARENT,
     KC_TRANSPARENT,         KC_Y,                   KC_U,                   KC_I,                   KC_O,                   KC_P,                   KC_BSLASH,
